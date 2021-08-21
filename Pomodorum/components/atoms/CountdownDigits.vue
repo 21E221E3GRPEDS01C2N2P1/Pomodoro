@@ -4,12 +4,14 @@
 			v-for="(digit, index) in splittedDigits"
 			:key="index"
 			class="w-1/2
-							bg-white
-							rounded-md
-							flex
-							items-center
-							justify-center
-							py-3"
+			bg-white
+			rounded-md
+			flex
+			items-center
+			justify-center
+			py-3
+			dark-mode"
+			:style="{transition: 'background 0.7s ease, color 0.7s ease'}"
 		>
 			{{ digit }}
 		</span>

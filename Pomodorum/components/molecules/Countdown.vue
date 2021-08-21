@@ -1,14 +1,21 @@
 <template>
-	<div class="flex
-							justify-center
-							items-center
-							mt-8
-							lg:mt-14
-							text-9xl
-							text-title
-							font-rajdhani">
+	<div
+		class="flex
+		justify-center
+		items-center
+		mt-8
+		lg:mt-14
+		text-9xl
+		text-title
+		font-rajdhani"
+	>
 		<CountdownDigits :digits="minutes" />
-		<span class="bg-background px-2">:</span>
+		<span
+			class="bg-background px-2 dots"
+			:style="{transition: 'background 0.7s ease, color 0.7s ease'}"
+		>
+			:
+		</span>
 		<CountdownDigits :digits="seconds" />
 	</div>
 </template>

@@ -31,3 +31,27 @@ body {
 	transform: translateY(10px);
 	opacity: 0;
 }
+
+body {
+	transition: background 0.7s ease, color 0.7s ease;
+}
+
+.dark body {
+	background-color: #1F1A24;
+}
+
+.dark .dots {
+	background-color: #1F1A24;
+	color: #5965e0;
+}
+
+.dark .dark-mode {
+	background-color: #332940;
+	color: #b3b9ff;
+}
+
+.dark .profile-dark {
+	color: #b3b9ff;
+}
+
+
