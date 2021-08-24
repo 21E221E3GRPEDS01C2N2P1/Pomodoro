@@ -51,7 +51,7 @@ export default [
 	},
 	{
 		type: 'eye',
-		description: 'Usando os polegares, massage a área abaixo das sobrancelhas em movimentos circulares por 15 segundos.',
+		description: 'Usando os polegares, massageie a área abaixo das sobrancelhas em movimentos circulares por 15 segundos.',
 		amount: 70,
 	},
 	{

@@ -1,9 +1,16 @@
 <template>
 	<div>
-		<button v-if="$colorMode.preference !== 'dark'" @click="changeTheme('dark')">
+		<button
+			v-if="$colorMode.preference !== 'dark'"
+			class=""
+			@click="changeTheme('dark')"
+		>
 			<img src="~/static/icons/dark_mode_black_24dp.svg" alt="Dark Mode">
 		</button>
-		<button v-else @click="changeTheme('light')">
+		<button
+			v-else
+			@click="changeTheme('light')"
+		>
 			<img src="~/static/icons/light_mode_white_24dp.svg" alt="Light Mode">
 		</button>
 	</div>
